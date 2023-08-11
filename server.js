@@ -32,4 +32,5 @@ app.post('/api/sendmail', (req, res) => {
   }
 
   transporter.sendMail(mailOptions, (err, info) => err ? res.status(500) : res.status(200))
+  
 })
