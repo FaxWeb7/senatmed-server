@@ -1,0 +1,38 @@
+{
+  "name": "senatmed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js --ignore client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Artemka0-7/Learn-Gulp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Artemka0-7/Learn-Gulp/issues"
+  },
+  "homepage": "https://github.com/Artemka0-7/Learn-Gulp#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.1",
+    "method-override": "^3.0.0",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.7.5"
+  },
+  "engines": {
+    "node": "16.15.0"
+  },
+  "devDependencies": {
+    "del": "^6.1.0",
+    "nodemon": "^2.0.16"
+  }
+}
