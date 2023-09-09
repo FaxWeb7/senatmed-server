@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon server.js",
-    "start": "node server.js --ignore client",
-    "deploy": "node server.js"
+    "start": "node index.js",
+    "deploy": "node index.js"
   },
   "repository": {
     "type": "git",
