@@ -21,7 +21,7 @@ app.use(morgan(reqMsg(':method :url :status :res[content-length] - :response-tim
 app.use(methodOverride('_method'));
 app.use(express.urlencoded({extended: false})); 
 
-app.post('/api/sendmail', (req, res) => {
+app.post('/', (req, res) => {
   const { message } = req.body;
 
   const mailOptions = {
